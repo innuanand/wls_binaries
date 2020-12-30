@@ -1,4 +1,0 @@
-collections:
-
-  - name: ibm.power_aix
-    source: https://cloud.redhat.com/api/automation-hub/
