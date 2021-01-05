@@ -1,11 +1,10 @@
 - name: test - copy file
   hosts: all
-  become: true
   gather_facts: false
 
   tasks:
     
   - name: List all software products and installable options contained on an installation cartridge tape
-    installp:
+    ibm.power_aix.installp:
       action: list
       device: /dev/rmt0.
