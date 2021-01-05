@@ -6,6 +6,6 @@
   tasks:
     
   - name: List all software products and installable options contained on an installation cartridge tape
-    ibm.power_aix.installpooo:
+    ibm.power_aix.installp:
       action: list
       device: /dev/rmt0.
