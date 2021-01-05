@@ -1,6 +1,5 @@
 - name: test - copy file
   hosts: all
-  become: true
   gather_facts: false
 
   tasks:
